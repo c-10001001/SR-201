@@ -6,3 +6,13 @@ My goal is to control this relay board through the OpenHAB 2.0 exec binding.
 
 Also see the following repository for more mature code:
 https://github.com/cryxli/sr201
+
+---
+# Openhab2 sample files.
+Prerequisites
+- [ ] Install Openhab 2
+  - [ ] Install exec binding
+  - [ ] Install base64 transform.
+
+Copy the files and directories from this repo's `openhab2` folder into the openhab2 folder on your system. 
+These examples assume relay-state.py is placed in the home of the openhab user so: `/home/openhab/relay-state.py`
