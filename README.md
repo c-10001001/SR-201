@@ -12,7 +12,9 @@ https://github.com/cryxli/sr201
 Prerequisites
 - [ ] Install Openhab 2
   - [ ] Install exec binding
-  - [ ] Install base64 transform.
+  - [ ] Install RegEx Transformation.
 
 Copy the files and directories from this repo's `openhab2` folder into the openhab2 folder on your system. 
 These examples assume relay-state.py is placed in the home of the openhab user so: `/home/openhab/relay-state.py`
+
+Access the sitemap though http://youropenhabname:8080/basicui/app?sitemap=sr201
