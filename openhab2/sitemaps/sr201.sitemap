@@ -1,0 +1,14 @@
+sitemap sr201 label="Ethernet relay stuff" {
+    Frame label="Relay" {
+        //Switch item=Lights icon="big_bulb" mappings=[OFF="All Off"]
+
+	//Switch item=A mappings=[ON="ON",OFF="OFF"]	
+	//Text item=StateA label="State A [%s]"
+
+	Switch item=network_device_nas_switch
+	
+	//Text item=Temperature valuecolor=[>25="orange",>15="green",<=15="blue"]
+        }
+    }
+}
+

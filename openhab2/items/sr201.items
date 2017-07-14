@@ -1,0 +1,1 @@
+String network_device_nas_switch "NAS" <network> (group_location_livingroom) [ "Switchable" ] { channel="exec:command:device-nas-control:input", channel="exec:command:device-nas-status:output", autoupdate="false" }

@@ -1,0 +1,2 @@
+Thing exec:command:device-nas-control [ command="python /home/openhab/relay-status.py %2$s", interval=0, autorun=true ]
+Thing exec:command:device-nas-status [ command="python /home/openhab/relay-status.py status", interval=60, timeout=5 ]
