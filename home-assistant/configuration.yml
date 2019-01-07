@@ -1,0 +1,9 @@
+switch:
+  - platform: command_line
+    switches:
+      sr201_relay:
+        command_on: "/usr/bin/python /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 11"
+        command_off: "/usr/bin/python /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 21"
+      sr201_relay:
+        command_on: "/usr/bin/python /config/deps/python-sr201.py 192.168.1.25 6722 12"
+        command_off: "/usr/bin/python /config/deps/python-sr201.py 192.168.1.25 6722 22"
