@@ -7,6 +7,8 @@ It should also work with hass.io but you might need to install python via `apk a
 - Download sr_201_ctrl.py
 - transfer it to your openhab machine, we used the /config/deps/ folder during testing.
 - chmod +x the script.
+- For adding it to home-assistant see [configuration.yml](https://github.com/001100010010011110100001101101110011/SR-201/blob/master/home-assistant/configuration.yml)
+
 
 ### Testing on commandline:
 
