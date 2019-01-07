@@ -5,5 +5,5 @@ switch:
         command_on: "python3 /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 11"
         command_off: "python3 /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 21"
       sr201_relay_2:
-        command_on: "python3 /config/deps/python-sr201.py 192.168.1.25 6722 12"
-        command_off: "python3 /config/deps/python-sr201.py 192.168.1.25 6722 22"
+        command_on: "python3 /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 12"
+        command_off: "python3 /config/deps/ha_sr201_ctrl.py 192.168.1.25 6722 22"
