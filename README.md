@@ -20,7 +20,7 @@ Configuration Port: `5111`
 
 It is best to prepare the desired configuration and acompanying commands before connect since the relay disconnect "idle" sessions quickly.
 
-We will be configuring the relay with the following settings:
+We will be configuring the relay with the following settings:<br>
 IP:`192.168.1.25`
 Netmask:`255.255.255.0`
 Gateway:`192.168.1.254`
