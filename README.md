@@ -21,9 +21,10 @@ Configuration Port: `5111`
 It is best to prepare the desired configuration and acompanying commands before connect since the relay disconnect "idle" sessions quickly.
 
 We will be configuring the relay with the following settings:<br>
-IP:`192.168.1.25`
-Netmask:`255.255.255.0`
-Gateway:`192.168.1.254`
+IP:`192.168.1.25`<br>
+Netmask:`255.255.255.0`<br>
+Gateway:`192.168.1.254`<br>
+Cloud:`Disabled`
 
 To do this you will need to enter a # followed by a commandcode then a comma and finally the new setting ending with a semicolon. When no new settings are specified the commandcodes end with a semicolon. 
 The commandcodes are the same for each relay, the part with 
