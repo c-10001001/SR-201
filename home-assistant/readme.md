@@ -15,8 +15,8 @@ It should also work with hass.io but you might need to install python via `apk a
 Browse to a folder where the script is located.
 Issue the following commands to turn relay 1 on and then off:
 ```
-# python sr_201_ctrl.py 192.168.1.25 6722 11
-# python sr_201_ctrl.py 192.168.1.25 6722 21
+# python ha_sr201_ctrl.py 192.168.1.25 6722 11
+# python ha_sr201_ctrl.py 192.168.1.25 6722 21
 ```
 
 Relay two can be controlled by issuing `12` and `22` instead of 11 and 21.
